@@ -15,4 +15,4 @@ app.use("/graphql", graphqlHTTP({
     schema: schema,
     graphiql: true
 }));
-app.listen(process.env.PORT, () => console.log("server running"));
+app.listen(8081, () => console.log("server running"));
